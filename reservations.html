@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Little Mexico</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/littlelogo.png" alt=""  height="70" >
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="container navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./aboutus.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./menu.html">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"   href="./reservations.html">RESERVATIONS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"   href="./reservations.html">DEALS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" aria-disabled="true">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <hr class="nav-line"/>
+
+      <div class="container row">
+        <div class="col-10">
+            <form action="" method="post">
+                <div class="form-group container col">
+                        <div class="row reservation-form ">
+                                <div class="col ">
+                                    <input type="text" class="form-control" name="NAME" id="" placeholder="NAME" required>
+                                    <input type="text" class="form-control" name="PERSONS" id="" placeholder="NUMBER OF GUESTS" required>
+                                    <input type="email" class="form-control" name="EMAIL" id="" placeholder="EMAIL" required>
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="date" class="form-control" name="" id="" required>
+                                        </div>
+                                        <div class="col">
+                                            <input type="time" class="form-control" name="" id="" min="10:0" max="22:00" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <textarea name="" id="" class="form-control"  rows="7" placeholder="ADDITIONAL INFORMATION"></textarea>
+                                </div>
+                                <div class="button-reserve">
+                                    <button  class=" btn btn-success rounded-pill" id="reserve-button" type="submit">RESERVE</button>
+                                </div>
+                        </div> 
+                </div>
+          </form>
+            
+        </div>
+        <div class="col-2 wrapper-calendar">
+            <div>
+                <img src="./images/calendar-icon.jpg" alt="" srcset="" id="icon-calendar">
+            </div>
+            <div>
+                <a  id="anchor-phone" href="tel:+420728358125">+420 728 358 125</a>
+            </div>
+            <div>
+                <a id="anchor-mail" href="mailto:info@little-mexico.cz">info@little-mexico.cz</a>
+            </div>
+        </div>
+      </div>
+      <footer class="">
+           <div class="footer-logo-links">
+            <a class="navbar-brand" href="#">
+                <img src="./images/littlelogo.png" alt=""  height="70" >
+            </a>
+            <div class="col-6 footer-link-wrapper">
+                <div class="col-6 footer-link-1">
+                    <ul>
+                        <li class="nav-item">
+                            <a class="footer-link" aria-current="page" href="#">ABOUT US</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="footer-link" href="#">MENU</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="footer-link" aria-current="page" href="#">RESERVATIONS</a>
+                          </li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul>
+                       
+                          <li class="nav-item">
+                            <a class="footer-link" aria-current="page" href="#">DEALS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="footer-link" href="#">CONTACT US</a>
+                          </li>
+                      
+                          
+                    </ul>
+                </div>
+            </div>
+           </div>   
+           <div class="rights-dev align-text-bottom">
+                <span class="col-12 align-text-bottom"> &#169 2021 ALL RIGHTS RESERVED | PRIVACY POLICY</span>
+              
+            </div>
+           <div class="social-networks">
+                <div class="conect-banner">
+                    <span id="connect-with-us">CONNECT WITH US!</span>
+                </div>
+                <div class="social-logos-wrapper">
+                    
+                    <a href="https://www.facebook.com/Littlemexicocz/" target="_blank"> <img src="./images/facebook-xxl.png" class="social-logo" alt="facebook logo" srcset=""></a>
+                    <a href="https://www.instagram.com/littlemexicoprague2/" target="_blank"> <img src="./images/instagram-xxl.png" class="social-logo" alt="facebook logo" srcset=""></a>
+                </div>
+           </div>
+      </footer> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
