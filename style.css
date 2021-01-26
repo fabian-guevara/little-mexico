@@ -165,8 +165,6 @@ textarea{
 }
 .button-reserve{
    text-align: center;
-}
-.button-reserve{
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -191,7 +189,11 @@ textarea{
     margin-bottom: 5%;
     max-width: 55%;
 }
-
+/* MENU */ 
+.menu-nsb{
+    display: flex;
+    justify-content: space-between;
+}
 /* DEALS */
 .banner-taco {
     font-size: 72px;
@@ -200,12 +202,11 @@ textarea{
     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: flex;
-    flex-wrap: wrap;
-    white-space: pre-line;
-    line-height: 80%
-    
+    line-height: 80%;
+    justify-content: space-evenly;
   }
 
 .img-taco{
+    
     width: 50%;
 }
