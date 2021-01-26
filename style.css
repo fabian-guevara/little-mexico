@@ -197,6 +197,7 @@ textarea{
     font-size: 72px;
     background: -webkit-linear-gradient(red, #eee);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     display: flex;
     flex-wrap: wrap;
