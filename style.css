@@ -54,8 +54,7 @@ input{
     margin-top: 4%;
 }
 .next-img{
-    width: 10px;
-
+    width: 6px;
     transform: rotate(180deg);
 }
 .about-us{
@@ -191,4 +190,21 @@ textarea{
 #icon-calendar{
     margin-bottom: 5%;
     max-width: 55%;
+}
+
+/* DEALS */
+.banner-taco {
+    font-size: 72px;
+    background: -webkit-linear-gradient(red, #eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    white-space: pre-line;
+    line-height: 80%
+    
+  }
+
+.img-taco{
+    width: 50%;
 }
