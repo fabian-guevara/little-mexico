@@ -22,7 +22,7 @@
                 <a class="nav-link " aria-current="page" href="./index.html">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./menu.html">MENU</a>
+                <a class="nav-link" :selected href="./menu.html">MENU</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link"   href="./reservations.html">RESERVATIONS</a>
@@ -39,13 +39,38 @@
       </nav>
       <hr class="nav-line"/>
 
-      <div class="container menu-nsb">
-        <img class="col-lg-4 col-sm-12" src="./images/menu-nachos.png" alt="menu nachos" srcset="">
-        <img class="col-lg-4 col-sm-12" src="./images/menu-sopes.png" alt="menu sopes" srcset="">
-        <img class="col-lg-4 col-sm-12" src="./images/menu-burritos.png" alt="menu burritos" srcset="">
+     
+      <div class="container menu-nsb" id="menu1">
+        <img class="img-fluid col-lg-4 col-sm-12 col-md-3 item-menu" src="./images/menu/menu-nachos.png" alt="menu nachos" srcset="">
+        <img class="img-fluid col-lg-4 col-sm-12 col-md-3 item-menu" src="./images/menu/menu-sopes.png" alt="menu sopes" srcset="">
+        <img class="img-fluid col-lg-4 col-sm-12 col-md-3 item-menu" src="./images/menu/menu-burritos.png" alt="menu burritos" srcset="">
+      </div>
+
+      <a href="#menu2" class="anchor-next"> <img   src="./images/iconos/flechas.png"  class="button-next" alt="" srcset=""></a>
+        <hr>
+       <div class="container menu-nsb" id="menu2">
+        <img class="img-fluid col-lg-3 col-sm-12 col-md-3 item-menu2" src="./images/menu/menu-quesadillas.png" alt="menu nachos" srcset="">
+        <img class="img-fluid col-lg-3 col-sm-12 col-md-3 item-menu2" src="./images/menu/menu-tacos.png" alt="menu sopes" srcset="">
+        <img class="img-fluid col-lg-3 col-sm-12 col-md-3 item-menu2" src="./images/menu/menu-burritos.png" alt="menu burritos" srcset="">
+        <img class="img-fluid col-lg-2 col-sm-12 col-md-3 item-menu2" src="./images/menu/menu-extras.png" alt="menu burritos" srcset="">
 
       </div>
- 
+      <a href="#menu3" class="anchor-next"> <img   src="./images/iconos/flechas.png"  class="button-next" alt="" srcset=""></a>
+      <hr>
+     <div class="container menu-drinks" id="menu3">
+      <img class="img-fluid col-lg-12 col-sm-12 col-md-3 " id="drinks" src="./images/menu/menu-drinks.png" alt="menu sopes" srcset="">
+    </div>
+    <div class="container  menu-drinks-div">
+      <img class="img-fluid col-lg-3 col-sm-12 col-md-3 item-menu3" id="beer" src="./images/menu/menu-beer.png" alt="menu burritos" srcset="">
+      <img class="img-fluid col-lg-3 col-sm-12 col-md-3 item-menu3" id="wine" src="./images/menu/menu-wine.png" alt="menu nachos" srcset="">
+      <img class="img-fluid col-lg-6 col-sm-12 col-md-3 item-menu3" id="nealko" src="./images/menu/menu-nonalcoholicdrinks.png" alt="menu nachos" srcset="">
+    </div>
+    <a href="#menu4" class="anchor-next"> <img   src="./images/iconos/flechas.png"  class="button-next" alt="" srcset=""></a>
+    <hr>
+   <div class="container menu-nsb" id="menu4">
+   
+    <img class="img-fluid col-lg-12 col-sm-12 col-md-8 item-menu4"  src="./images/menu/menu-shots.png" alt="menu sopes" srcset="">
+  </div>
       <footer class="">
            <div class="footer-logo-links">
             <a class="navbar-brand" href="#">
@@ -67,15 +92,12 @@
                 </div>
                 <div class="col-6">
                     <ul>
-                       
                           <li class="nav-item">
                             <a class="footer-link" aria-current="page" href="#">DEALS</a>
                           </li>
                           <li class="nav-item">
                             <a class="footer-link" href="#">CONTACT US</a>
                           </li>
-                      
-                          
                     </ul>
                 </div>
             </div>
@@ -90,8 +112,8 @@
                 </div>
                 <div class="social-logos-wrapper">
                     
-                    <a href="https://www.facebook.com/Littlemexicocz/" target="_blank"> <img src="./images/facebook-xxl.png" class="social-logo" alt="facebook logo" srcset=""></a>
-                    <a href="https://www.instagram.com/littlemexicoprague2/" target="_blank"> <img src="./images/instagram-xxl.png" class="social-logo" alt="instagram logo" srcset=""></a>
+                    <a href="https://www.facebook.com/Littlemexicocz/" target="_blank"> <img src="./images/iconos/facebook.png" class="social-logo" alt="facebook logo" srcset=""></a>
+                    <a href="https://www.instagram.com/littlemexicoprague2/" target="_blank"> <img src="./images/iconos/insta.png" class="social-logo" alt="instagram logo" srcset=""></a>
                 </div>
            </div>
       </footer> 

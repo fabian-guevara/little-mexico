@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 BODY{
 font-family:"Avenir Medium", "Avenir Book", "Avenir Black", "Avenir Light", "Avenir Heavy";
 }
@@ -6,7 +9,7 @@ ul{
 }
 .navbar{
     background-color: black;
-    padding: 15%;
+    padding: 10%;
     /* font-size: 26pt; */
     letter-spacing: 6px;
     width: 100%;
@@ -17,7 +20,7 @@ input{
     margin-bottom: 10px !important;
 }
 .navbar-nav{
-    max-width: 80% !important;
+    /* max-width: 80% !important; */
     display: flex;
     justify-content: space-between;
 }
@@ -27,9 +30,10 @@ input{
 }
 
 .nav-link{
-        position: relative;
-        color:#FFFFFF;
-    margin: 0px 15px;}
+    position: relative;
+    color:#FFFFFF;
+    margin: 0px 15px;
+}
 
 .nav-link:hover{
     color: #FFFFFF;
@@ -45,7 +49,7 @@ input{
         opacity: 0;
         transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
         transform: translateY(20px);        
-    }
+}
 
 .welcome{
 max-width: 100%;
@@ -67,13 +71,16 @@ max-width: 100%;
 }
 
 
-
-.next-button{
+.anchor-next{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 15x;
     margin-bottom: 10px;
+}
+.button-next{
+   
+    max-width: 8%;
 }
 
 .about-us{
@@ -109,20 +116,22 @@ footer{
     margin-top: 50px;
     background-color: black;
     padding-top: 1%;
-    padding-left: 15%;
+    padding-left: 10%;
     /* margin-left: 15%; */
     display: flex;
     flex-direction: row;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 .footer-logo-links{
     display: flex;
     flex-direction: row;
+    /* margin-right: 5%; */
 }
 .footer-link:hover{
     color: white;
     bottom: 10%;
-    
 }
 .footer-link-wrapper{
     display: flex;
@@ -133,12 +142,9 @@ footer{
 .footer-link{
     text-decoration: none;
     color: white;
-    margin-right: 2%;
     font-size: 55%;
 }
-.footer-link-1{
-    max-width: 80%;
-}
+
 .rights-dev{
     text-align: center;
     font-size: 70%;
@@ -212,11 +218,37 @@ textarea{
     margin-bottom: 5%;
     max-width: 55%;
 }
-* MENU */ 
+/* MENU */ 
 .menu-nsb{
     display: flex;
     justify-content: space-between;
 }
+.item-menu{
+    max-width: 30% !important;
+}
+.item-menu2{
+    max-width: 25% !important;
+}
+.item-menu3{
+    max-width: 30% !important;
+   
+}
+.menu-drinks{
+    display: flex;
+    flex-direction: column ;
+}
+.menu-drinks-div{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+    max-height: 40% !important;
+}
+#nealko{
+    /* height: 80% !important; */
+    align-self: flex-start;
+    max-width: 45% !important;
+}
+
 /* DEALS */
 .banner-taco {
     font-size: 72px;
