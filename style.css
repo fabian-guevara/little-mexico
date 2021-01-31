@@ -254,20 +254,22 @@ footer{
         text-align:  center;
         display: flex;
         flex-direction: column;
-        align-self: center;
+        align-self: flex-end;
         align-items: center;
         justify-content: space-between;
     }
     .container-footer{
-        display: flex;
-        justify-content: space-between;
         padding-top: 8pt;
-        /* margin-left: 0%; */
+        padding-right: 16pt;
     }
     #connect-with-us{
-        color: black;
-        font-weight: bold;
-        font-size: 4pt;
+      display: none;
+    }
+    .social-networks{
+        margin-left: 0%;
+        align-self: baseline;
+        align-items: center;
+        justify-content: space-between;
     }
   }
 
