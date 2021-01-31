@@ -225,11 +225,13 @@ footer{
     footer{
        
         background-color: rgba(245, 245, 245, 0.575);
+        padding: 0%;
     }
     .footer-logo-links{
         flex-direction: row-reverse;
         color: black !important;
         text-align: justify;
+    
     }
     .footer-link{
         color: black;
