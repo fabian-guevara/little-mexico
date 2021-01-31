@@ -20,7 +20,6 @@ input{
     margin-bottom: 10px !important;
 }
 .navbar-nav{
-    /* max-width: 80% !important; */
     display: flex;
     justify-content: space-between;
 }
@@ -88,13 +87,21 @@ max-width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+    /* max-width: 100%; */
 }
 .about-text{
     padding-top: 1%;
     padding-bottom: 0%;
     font-size: 110%;
     margin-right: 20px;
+}
+.banner-aboutus{
+    display: none;
+   
+}
+#title-aboutus{
+    font-weight: bold;
+    border-bottom:solid 2px  #e02310;
 }
 .about-img{
     max-width: 100%;
@@ -109,25 +116,30 @@ max-width: 100%;
     font-size: 16pt;
 
 }
+.enjoy-banner-mobile{
+    display: none;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+
 footer{
     position: static;
     bottom: 0;
     width: 100%;
     margin-top: 50px;
     background-color: black;
-    padding-top: 1%;
-    padding-left: 10%;
+    padding: 1% 8% 0%;
     /* margin-left: 15%; */
     display: flex;
     flex-direction: row;
     margin-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .footer-logo-links{
     display: flex;
     flex-direction: row;
-    /* margin-right: 5%; */
 }
 .footer-link:hover{
     color: white;
@@ -153,11 +165,14 @@ footer{
     
     bottom: 0;
 }
-.social-logos-wrapper{
+.social-networks{
     display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    margin-top: 5%;
+    flex-direction: column;
+    text-align: center;
+}
+.social-logos-wrapper{
+    margin-top: 6pt;
+    text-align: center;
 }
 #connect-with-us{
     color: white;
@@ -165,8 +180,71 @@ footer{
 }
 .social-logo{
     height: 30px;
+    margin-right: 5%;
 }
 
+@media only screen and (max-width: 812px) {
+    /* For mobile phones: */
+    .navbar{
+        padding: 0%;
+        max-width: 100% !important;
+    }
+    .nav-link{
+        color: #6ebf00 !important;
+        text-align: center;
+        background-color: white;
+        border-bottom: solid 1px gray;
+    }
+    .nav-link:after{
+        background-color: white;
+    }
+     .button-next{
+        display: none;
+    }
+    .about-us{
+        flex-direction: column;
+    }
+    #about-text{
+        font-size: 8pt;
+        text-align: justify;
+    }
+    .banner-aboutus{
+        display: flex;
+       justify-content: center;
+    }
+    .enjoy-banner{
+       display: none;
+    }
+    .enjoy-banner-mobile{
+        text-align: unset;
+        font-size: 10pt;
+        letter-spacing: 0px;
+        color: #e02310;
+        display: inline;
+    }
+    footer{
+       
+        background-color: rgba(245, 245, 245, 0.575);
+    }
+    .footer-logo-links{
+        flex-direction: row-reverse;
+        color: black !important;
+        text-align: justify;
+    }
+    .footer-link{
+        color: black;
+    }
+    .footer-link-wrapper{
+        flex-direction: column;
+    }
+    img#logo-footer{
+        content: url(./images/placce-holder.jpg)
+    }
+    .rights-dev{
+        font-size: 30%;
+        text-align: "." center;
+    }
+  }
 
 /*reservations */
 .reservation-form{
@@ -248,7 +326,17 @@ textarea{
     align-self: flex-start;
     max-width: 45% !important;
 }
-
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .menu-nsb{
+        display: flex;
+        flex-direction: column;
+    }
+   .item-menu{
+      max-width: 100% !important;
+      margin-bottom: 2%;
+    }
+  }
 /* DEALS */
 .banner-taco {
     font-size: 72px;

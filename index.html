@@ -10,12 +10,12 @@
     <title>Little Mexico</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-dark navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="./images/littlelogo.png" alt=""  height="70" >
               </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -41,32 +41,37 @@
       </nav>
       <hr class="nav-line"/>
 
-      <div class="container">
+      <div class="">
         <img class="welcome" src="./images/COVER-25.jpg" alt="">
 
       </div>
+      <div class="banner-aboutus">
+        <p id="title-aboutus">ABOUT US</p>
+      </div>
       <a href="#about-us" class="anchor-next"> <img   src="./images/iconos/flechas.png"  class="button-next" alt="" srcset=""></a>
     <div class=" container about-us" id="about-us" >
-        <div class="container fluid col-6 about-text">
-            <p>The Little-Mexico restaurant was opened on July 3, 2019 at Moravská 21 in Prague-Vinohrady. <br> <br>
+        <div class="container fluid col-lg-6 col-sm-12 about-text">
+            <p id="about-text">The Little-Mexico restaurant was opened on July 3, 2019 at Moravská 21 in Prague-Vinohrady. <br> <br>
 
                 The restaurant offers original Mexican cuisine, which began to be created 9,000 years ago, when the original inhabitants of Mexico (Indian tribes) began to grow and use corn in the preparation of food. Subsequent other Central American ethnic groups brought with them their own ways of cooking.
                 <br> <br>   
                 The restaurant also offers original Mexican beer (bottled) and lemonades. If you prefer draft Czech beer, we offer Bernard beer.
                 </p>
         </div>
-        
-        <div class="col-6">
-            <img src="./images/entrance.jpeg"  class="about-img .img-fluid. max-width: 10%;" alt="">
+        <div class="container col-12 enjoy-banner-mobile">
+          <p> ENJOY AN EXTRAORDINARY EXPERIENCE AND TASTE ORIGINAL MEXICAN CUISINE</p>
+      </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <img src="./images/entrance.jpeg"  class="about-img img-fluid max-width: 10%;" alt="">
         </div>
     </div>
     <div class="container col-12 enjoy-banner">
         <p> ENJOY AN EXTRAORDINARY EXPERIENCE AND TASTE ORIGINAL MEXICAN CUISINE</p>
     </div>
-      <footer class="">
-           <div class="footer-logo-links">
+      <footer >
+           <div class="footer-logo-links col-lg-4">
             <a class="navbar-brand" href="#">
-                <img src="./images/littlelogo.png" alt=""  height="70" >
+                <img src="./images/littlelogo.png" id="logo-footer" alt=""  height="70" >
             </a>
             <div class="col-6 footer-link-wrapper">
                 <div class="col-6 footer-link-1">
@@ -97,18 +102,18 @@
                 </div>
             </div>
            </div>   
-           <div class="rights-dev align-text-bottom">
+           <div class="rights-dev align-text-bottom col-lg-4">
                 <span class="col-12 align-text-bottom"> &#169 2021 ALL RIGHTS RESERVED | PRIVACY POLICY</span>
               
             </div>
-           <div class="social-networks">
+           <div class="social-networks col-lg-4">
                 <div class="conect-banner">
                     <span id="connect-with-us">CONNECT WITH US!</span>
                 </div>
                 <div class="social-logos-wrapper">
                     
-                    <a href="https://www.facebook.com/Littlemexicocz/" target="_blank"> <img src="./images/facebook-xxl.png" class="social-logo" alt="facebook logo" srcset=""></a>
-                    <a href="https://www.instagram.com/littlemexicoprague2/" target="_blank"> <img src="./images/instagram-xxl.png" class="social-logo" alt="facebook logo" srcset=""></a>
+                    <a href="https://www.facebook.com/Littlemexicocz/" target="_blank"> <img src="./images/iconos/facebook.png" class="social-logo" alt="facebook logo" srcset=""></a>
+                    <a href="https://www.instagram.com/littlemexicoprague2/" target="_blank"> <img src="./images/iconos/insta.png" class="social-logo" alt="facebook logo" srcset=""></a>
                 </div>
            </div>
       </footer> 
