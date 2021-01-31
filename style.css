@@ -160,7 +160,7 @@ footer{
 .rights-dev{
     text-align: center;
     font-size: 70%;
-    display: inline-block;
+    /* display: inline-block; */
     align-self: flex-end;
     
     bottom: 0;
@@ -246,7 +246,7 @@ footer{
     }
     #logo-footer-mobile{
         display: block;
-        max-width: 60%;
+        max-width: 50%;
         margin-bottom: 6pt;
     }
     .rights-dev{
