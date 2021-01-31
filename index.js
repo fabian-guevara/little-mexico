@@ -27,6 +27,6 @@ function sendEmail(){
 const {name , guests, from, phone, date, time, comments} = getValues();
 const Body = fillTemplate(name,  date, time ,guests, phone, from, comments);
 const email = { Host, Username, Password, To, From, Subject, Body};
-Email.send(email).then(message => alert('Reservation confirmed.')).catch(e => console.log(e));
+Email.send(email).then(message => alert('Reservation confirmed. ')).catch(e => console.log(e));
 }
 

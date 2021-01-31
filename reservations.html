@@ -38,100 +38,89 @@
       </nav>
       <hr class="nav-line"/>
 
-      <div class="container row">
-        <div class="col-10">
-            <form action="" method="post">
-                <div class="form-group container col">
 
-                        <div class="row reservation-form ">
-                <H3 class="banner-form">  TO BOOK, PLEASE FILL OUT THIS FORM</H3>
 
-                                <div class="col ">
-                                    <input type="text" class="form-control" name="NAME" id="name" placeholder="NAME" required>
-                                    <input type="text" class="form-control" name="PERSONS" id="guests" placeholder="NUMBER OF GUESTS" required>
-                                    <input type="email" class="form-control" name="EMAIL" id="email" placeholder="EMAIL" required>
-                                    <input type="tel"  class="form-control" name="PHONE" id="phone" placeholder="PHONE NUMBER" required>
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="date" class="form-control" name="" id="date" required>
-                                        </div>
-                                        <div class="col">
-                                            <input type="time" class="form-control" name="" id="time" min="10:0" max="22:00" required>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <textarea name="" id="comments" class="form-control"  rows="7" placeholder="ADDITIONAL INFORMATION"></textarea>
-                                </div>
-                                <div class="button-reserve">
-                                  <input type="button" value="Send Email" onclick="sendEmail()"/>
-                                </div>
-                        </div> 
-                </div>
-          </form>
-            
+      <div class="container layout-reservations col-lg-10 col-sm-12">
+        <div class=" form-reservations row">
+          <h2 id="banner-form">TO BOOK FILL OUT THIS FORM</h2>
+         <div class="col">
+          <input type="text" class="form-control" name="NAME" id="name" placeholder="NAME" required>
+          <input type="text" class="form-control" name="PERSONS" id="guests" placeholder="NUMBER OF GUESTS" required>
+          <input type="email" class="form-control" name="EMAIL" id="email" placeholder="EMAIL" required>
+          <input type="tel"  class="form-control" name="PHONE" id="phone" placeholder="PHONE NUMBER" required>
+          <div class="row">
+            <div class="col">
+                <input type="date" class="form-control" name="" id="date" required>
+            </div>
+            <div class="col">
+                <input type="time" class="form-control" name="" id="time" min="10:0" max="22:00" required>
+            </div>
+          </div>
+         </div>
+          <div class="col">
+            <textarea name="" id="comments" class="form-control"  rows="7" placeholder="ADDITIONAL INFORMATION"></textarea>
+          </div>
+          <div class="button-reserve">
+            <input type="button" value="Reserve" onclick="sendEmail()" id="button-reserve"/>
+          </div>  
         </div>
-        <div class="col-2 wrapper-calendar">
-            <div>
-                <img src="./images/calendar-icon.jpg" alt="" srcset="" id="icon-calendar">
-            </div>
-            <div>
-                <a  id="anchor-phone" href="tel:+420728358125">+420 728 358 125</a>
-            </div>
-            <div>
-                <a id="anchor-mail" href="mailto:info@little-mexico.cz">info@little-mexico.cz</a>
-            </div>
+        <div class="wrapper-calendar-contact col-lg-2 col-sm-12">
+                <img src="./images/calendar-icon.jpg"  id="icon-calendar" alt="">
+                <div class="wrapper-contact">
+                    <a id="phone" href="tel:+420 728 358 125"> 420 728 358 125</a>
+                    <a id="email" href="mailto:info@little-mexico.cz"> info@little-mexico.cz </a>
+                </div>
         </div>
       </div>
-      <footer class="">
-           <div class="footer-logo-links">
-            <a class="navbar-brand" href="#">
-                <img src="./images/littlelogo.png" alt=""  height="70" >
-            </a>
-            <div class="col-6 footer-link-wrapper">
-                <div class="col-6 footer-link-1">
-                    <ul>
-                        <li class="nav-item">
-                            <a class="footer-link" aria-current="page" href="#">ABOUT US</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="footer-link" href="#">MENU</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="footer-link" aria-current="page" href="#">RESERVATIONS</a>
-                          </li>
-                    </ul>
-                </div>
-                <div class="col-6">
-                    <ul>
-                       
-                          <li class="nav-item">
-                            <a class="footer-link" aria-current="page" href="#">DEALS</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="footer-link" href="#">CONTACT US</a>
-                          </li>
-                      
-                          
-                    </ul>
-                </div>
+
+
+
+
+
+      <footer class="container-footer" >
+        <div class="footer-logo-links col-lg-4">
+          <a class="navbar-brand" href="#">
+            <img src="./images/littlelogo.png" id="logo-footer" alt=""  height="70" >
+          </a>
+            <div class="col-sm-4 col-lg-6 footer-link">
+                <ul>
+                    <li class="nav-item">
+                        <a class="footer-link" aria-current="page" href="#">ABOUT US</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="footer-link" href="#">MENU</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="footer-link" aria-current="page" href="#">RESERVATIONS</a>
+                      </li>
+                </ul>
+                <ul>
+                      <li class="nav-item">
+                        <a class="footer-link" aria-current="page" href="#">DEALS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="footer-link" href="#">CONTACT US</a>
+                      </li>  
+                </ul>
             </div>
-           </div>   
-           <div class="rights-dev align-text-bottom">
-                <span class="col-12 align-text-bottom"> &#169 2021 ALL RIGHTS RESERVED | PRIVACY POLICY</span>
-              
+        </div>
+       </div>   
+       <div class="rights-dev align-text-bottom col-lg-4 col-sm-12">
+        <img src="./images/placce-holder.jpg" id="logo-footer-mobile" alt="" srcset="">
+        <div></div>
+        <span class="col-12 align-text-bottom"> &#169 2021 ALL RIGHTS RESERVED | PRIVACY POLICY</span>
+          
+        </div>
+       <div class="social-networks col-lg-4">
+            <div class="conect-banner">
+                <span id="connect-with-us">CONNECT WITH US!</span>
             </div>
-           <div class="social-networks">
-                <div class="conect-banner">
-                    <span id="connect-with-us">CONNECT WITH US!</span>
-                </div>
-                <div class="social-logos-wrapper">
-                    
-                    <a href="https://www.facebook.com/Littlemexicocz/" target="_blank"> <img src="./images/facebook-xxl.png" class="social-logo" alt="facebook logo" srcset=""></a>
-                    <a href="https://www.instagram.com/littlemexicoprague2/" target="_blank"> <img src="./images/instagram-xxl.png" class="social-logo" alt="instagram logo" srcset=""></a>
-                </div>
-           </div>
-      </footer>
+            <div class="social-logos-wrapper">
+                <a href="https://www.facebook.com/Littlemexicocz/" target="_blank"> <img src="./images/iconos/facebook.png" class="social-logo" alt="facebook logo" srcset=""></a>
+                <a href="https://www.instagram.com/littlemexicoprague2/" target="_blank"> <img src="./images/iconos/insta.png" class="social-logo" alt="facebook logo" srcset=""></a>
+            </div> 
+         </div>
+    </footer> 
       <script src="https://smtpjs.com/v3/smtp.js">
       </script>
       <script src="./index.js">
