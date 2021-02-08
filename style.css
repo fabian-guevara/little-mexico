@@ -126,12 +126,8 @@ max-width: 100%;
 }
 #footer { 
     position: fixed; 
-    /* padding: 10px 10px 0px 10px;  */
     bottom: 0; 
     width: 100%; 
-    /* Height of the footer*/  
-    /* height: 40px;  */
-    /* background: grey;  */
 } 
 footer{
     position: static;
@@ -425,4 +421,23 @@ footer{
     .img-taco{
         max-width: 100%;
     }
+}
+
+/*Contact*/
+@media only  screen and ( max-width: 812px){
+   .layout-hours-transport{
+       font-weight: bold;
+   }
+   .tag-hours{
+       display: flex;
+       flex-direction: row;
+       width: 20%;
+       font-size: 60%;
+   }
+   #img-clock{
+       max-width: 50%;
+       height: 50%;
+       margin-right: 5%;
+   }
+   
 }
