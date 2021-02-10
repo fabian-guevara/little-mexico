@@ -388,6 +388,16 @@ footer{
         max-width: 100% !important;
         margin-bottom: 2%;
     }
+    .menu-drinks-div{
+        flex-direction: column;
+    }
+    .item-menu3{
+        max-width: 100% !important;
+        margin-bottom: 2%;
+    }
+    #nealko{
+        max-width: 100% !important;
+    }
   }
 /* DEALS */
 .banner-taco {
